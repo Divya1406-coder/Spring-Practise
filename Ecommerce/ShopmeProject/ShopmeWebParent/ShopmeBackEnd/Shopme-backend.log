@@ -1,0 +1,39 @@
+2023-01-09 12:47:12.391  INFO 52604 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-01-09 12:47:13.028  INFO 52604 --- [RMI TCP Connection(7)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-09 12:47:13.034  INFO 52604 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-09 12:47:13.044  INFO 52604 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-09 12:47:14.407  INFO 52604 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-09 12:48:58.146  INFO 53852 --- [restartedMain] c.shopme.admin.ShopmeBackEndApplication  : Starting ShopmeBackEndApplication using Java 17.0.1 on DESKTOP-RKG15FN with PID 53852 (E:\Study\Spring Practise\Ecommerce\ShopmeProject\ShopmeWebParent\ShopmeBackEnd\target\classes started by Saravana in E:\Study\Spring Practise\Ecommerce\ShopmeProject\ShopmeWebParent\ShopmeBackEnd)
+2023-01-09 12:48:58.153  INFO 53852 --- [restartedMain] c.shopme.admin.ShopmeBackEndApplication  : No active profile set, falling back to default profiles: default
+2023-01-09 12:48:58.302  INFO 53852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-09 12:48:58.303  INFO 53852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-09 12:49:00.460  INFO 53852 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-09 12:49:00.632  INFO 53852 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 146 ms. Found 2 JPA repository interfaces.
+2023-01-09 12:49:02.128  INFO 53852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-09 12:49:02.153  INFO 53852 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-09 12:49:02.154  INFO 53852 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-01-09 12:49:02.626  INFO 53852 --- [restartedMain] o.a.c.c.C.[.[localhost].[/ShopmeAdmin]   : Initializing Spring embedded WebApplicationContext
+2023-01-09 12:49:02.626  INFO 53852 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4322 ms
+2023-01-09 12:49:03.195  INFO 53852 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-09 12:49:03.327  INFO 53852 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2023-01-09 12:49:14.084  INFO 53852 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-09 12:49:17.124  INFO 53852 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-09 12:49:19.029  INFO 53852 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-09 12:49:19.351  INFO 53852 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-09 12:49:26.497  INFO 53852 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-09 12:49:26.630  INFO 53852 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-09 12:49:26.748  INFO 53852 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-09 12:49:26.907  WARN 53852 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-09 12:49:29.239  INFO 53852 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2023-01-09 12:49:29.241  INFO 53852 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2023-01-09 12:49:29.256  INFO 53852 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2023-01-09 12:49:29.355  INFO 53852 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4cf35f70, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ac05c4e, org.springframework.security.web.header.HeaderWriterFilter@29987607, org.springframework.security.web.csrf.CsrfFilter@6ee81310, org.springframework.security.web.authentication.logout.LogoutFilter@3d170c06, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@57e06787, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e4b626b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c337890, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@4d026fc1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35d85cd1, org.springframework.security.web.session.SessionManagementFilter@5a9af0bc, org.springframework.security.web.access.ExceptionTranslationFilter@57e96f1d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7346b32]
+2023-01-09 12:49:29.852  INFO 53852 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-09 12:49:30.150  INFO 53852 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-01-09 12:49:31.834  INFO 53852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ShopmeAdmin'
+2023-01-09 12:49:31.864  INFO 53852 --- [restartedMain] c.shopme.admin.ShopmeBackEndApplication  : Started ShopmeBackEndApplication in 34.833 seconds (JVM running for 37.788)
+2023-01-08 12:56:40.763  INFO 53852 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-01-08 12:56:40.887  INFO 53852 --- [RMI TCP Connection(14)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-08 12:56:40.893  INFO 53852 --- [RMI TCP Connection(14)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-08 12:56:40.905  INFO 53852 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-08 12:56:41.057  INFO 53852 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

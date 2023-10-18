@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;swagger-1/src/main/java/com.example.demo&apos;&#x0D;&#x0A;- Original project: &apos;swagger&apos;&#x0D;&#x0A;- Destination element: &apos;swagger-1/src/main/java/com.example.demo&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.example.demo.Movie.java&#x0D;&#x0A;     com.example.demo.MovieController.java" description="Copy compilation units" destination="=swagger-1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo" element1="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.example.demo{Movie.java" element2="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.example.demo{MovieController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1667125283033" units="2" version="1.0"/>
+</session>

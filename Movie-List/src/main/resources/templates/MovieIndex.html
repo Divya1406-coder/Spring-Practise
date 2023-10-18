@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Movies</title>
+</head>
+<body>
+<h1> Movie List </h1>
+ <table border = 1 >
+	<thead>
+	<tr>
+	<td> Movie Name</td>
+	<td> Movie Description</td>
+	<td> Actor</td>
+	</tr>
+	</thead>
+	<tbody>
+	<tr th:each ="movie : ${movies}"></td>
+	<td th:text = "${movie.name}"></td>
+	<td th:text = "${movie.description}"></td>
+	<td th:text = "${movie.actor}"></td>
+	</tr>
+	</tbody>
+ </table>
+</body>
+</html>

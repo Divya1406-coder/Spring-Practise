@@ -1,0 +1,5 @@
+package com.data.demo;
+
+public interface Repo {
+
+}
